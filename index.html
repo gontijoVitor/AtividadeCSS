@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <style>
+        body{
+            background-color: rgb(220, 220, 220);
+         }
+
+        .header{
+            height: 600px;
+            width: 100%;
+            background-image: url(fundo-header.jpg);
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            color: aliceblue;
+            background-position-y:55%;
+        }
+        .projetos{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            align-items: center;
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+        }
+        .bloco-projeto{
+            height: 300px;
+            width: 350px;
+            border-radius: 15px;
+            text-align: center;
+            color:aliceblue;
+            background-color: rgb(70, 70, 70);
+            display: inline-block;
+            margin: 40px;
+        }
+        .img-projeto{
+            padding: 20px;
+            border-radius: 35px;
+        }
+        .about{
+            padding: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background-color: aliceblue;
+        }
+        h1{
+            margin-top: 0;
+            padding-top: 10%;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+        }
+        h2{
+            width: 100%;
+            background-color: rgb(220, 220, 220);
+            border-bottom: 1px solid gray;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        .content{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        img{
+            height: 100px;
+            height: 200px;
+            padding: 10px;
+        }
+        .nome-projeto{
+            margin:0;
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        .about {
+            border-radius: 15px;
+        }
+        li{
+            display: inline;
+            border: 2px solid white;
+            padding: 7px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar" style="float: right;">
+            <ul style="padding: 20px;">
+                <li>INÍCIO</li>
+                <li>MEUS PROJETOS</li>
+                <li>QUEM SOU</li>
+            </ul>
+        </div>
+        <h1>VÍTOR GONTIJO</h1>
+        <p style="font-family: 'Courier New', Courier, monospace; font-weight: bold;">Meu portifólio com os meus principais projetos desenvolvidos!</p>
+    </div>
+
+    <div class="content">
+        <div class="projetos">
+            <div class="bloco-projeto">
+                <img class="img-projeto" src="app2.jpg">
+                <p class="nome-projeto">Aplicativos desktop</p>
+            </div>
+            <div class="bloco-projeto">
+                <img class="img-projeto" src="app1.jpg">
+                <p class="nome-projeto">Aplicativos mobile</p>
+            </div>
+            <div class="bloco-projeto">
+                <img class="img-projeto" src="app3.jpg">
+                <p class="nome-projeto">Aplicativos web</p>
+            </div>
+        </div>
+        
+        <div class="about">
+            <h2>Sobre mim</h2>
+            <p>Algumas informações sobre mim...</p>
+        </div>
+    </div>
+
+</body>
+</html>
